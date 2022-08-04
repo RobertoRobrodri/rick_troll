@@ -1,0 +1,20 @@
+bullet=$( expr $RANDOM % 4 )
+
+case $bullet in
+
+	0)
+		echo try again
+		;;
+	1)
+		echo are u sure about that?
+		;;
+	2)
+		echo potatooooo
+		;;
+	3)
+		kill -9 $$
+		;;
+esac
+
+#You have to
+#cat revolver >> $HOME/.zshrc
